@@ -1,6 +1,4 @@
-dist: trusty
-git:
-  depth: 1
+dist: xenial
 branches:
   except: /^v\d/
 language: node_js
