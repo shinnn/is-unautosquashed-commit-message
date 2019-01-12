@@ -50,6 +50,6 @@ isUnautosquashedCommitMessage();
 
 ## License
 
-Copyright (c) 2017 - 2018 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2017 - 2019 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
