@@ -4,7 +4,7 @@
 	"description": "Check if the value is a commit message that'll be melded into another by `git -i --autosquash`",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/is-unautosquashed-commit-message",
-	"license": "MIT",
+	"license": "MIT-0",
 	"scripts": {
 		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
