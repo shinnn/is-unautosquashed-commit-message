@@ -9,7 +9,7 @@
 		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
-		"test": "nyc node test.js"
+		"test": "coverage test.mjs"
 	},
 	"files": [
 		"index.js",
@@ -28,18 +28,14 @@
 		"if"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config": "^6.8.9",
-		"eslint": "^5.12.1",
-		"nyc": "^13.1.0",
-		"nyc-config-common": "^1.0.1",
-		"rollup": "^1.1.0",
+		"@shinnn/eslint-config": "^6.10.3",
+		"coverage": "^0.3.1",
+		"eslint": "^5.16.0",
+		"rollup": "^1.12.3",
 		"rollup-config-module": "^2.0.2",
-		"tape": "^4.9.2"
+		"testit": "^3.1.0"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
-	},
-	"nyc": {
-		"extends": "nyc-config-common"
 	}
 }
